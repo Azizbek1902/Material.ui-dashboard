@@ -1,0 +1,129 @@
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.side-bar::-webkit-scrollbar {
+  display: none;
+}
+.d1 {
+  animation: circular-rotate 5.4s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes circular-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.swiper-pagination {
+  bottom: 7% !important;
+  left: 42% !important;
+}
+:root {
+  --swiper-theme-color: rgb(91, 228, 155);
+}
+.bgColor {
+  background: linear-gradient(135deg, rgb(0, 167, 111), rgb(0, 120, 103));
+}
+
+.slick-center .centr {
+  width: 50px !important;
+  margin-top: -5px;
+  box-shadow: 0px 7px 15px rgb(200, 200, 200);
+}
+.slick-track {
+  height: 90px;
+  padding-top: 20px;
+}
+.div1 {
+  position: relative;
+}
+.div2 {
+  position: absolute;
+  border-radius: 50%;
+  width: 40px;
+  top: 0;
+  height: 40px;
+  background-color: rgba(244, 244, 244, 0.719);
+}
+.slick-center .div2 {
+  display: none;
+}
+.apexcharts-toolbar {
+  display: none !important;
+}
+#chart #SvgjsG1461,
+#SvgjsG1561 {
+  display: none;
+}
+#chart #SvgjsG1437,
+#SvgjsG1537 {
+  display: none;
+}
+#chart #SvgjsG1392 #SvgjsLine1419,
+#SvgjsLine1420,
+#SvgjsLine1421,
+#SvgjsLine1422,
+#SvgjsLine1423,
+#SvgjsLine1424,
+#SvgjsLine1425,
+#SvgjsLine1519,
+#SvgjsLine1520,
+#SvgjsLine1521,
+#SvgjsLine1522,
+#SvgjsLine1523,
+#SvgjsLine1524,
+#SvgjsLine1525,
+#SvgjsG1518 {
+  display: none !important;
+}
+#chart #SvgjsLine1434,
+#SvgjsLine1427,
+#SvgjsLine1428,
+#SvgjsLine1429,
+#SvgjsLine1430,
+#SvgjsLine1460,
+#SvgjsLine1432,
+#SvgjsLine1426,
+#SvgjsLine1534,
+#SvgjsLine1527,
+#SvgjsLine1528,
+#SvgjsLine1529,
+#SvgjsLine1530 {
+  display: none !important;
+}
+
+#SvgjsCircle1487 {
+  fill: #007464 !important;
+}
+#SvgjsCircle1587 {
+  fill: #b76e00 !important;
+}
+#chart #SvgjsPath1414 {
+  stroke: #007867 !important;
+}
+
+#chart #SvgjsPath1413 {
+  fill: #bce4d7 !important;
+}
+#chart #SvgjsPath1514 {
+  stroke: #b76e00 !important;
+}
+#chart #SvgjsPath1513 {
+  fill: #fae9c6 !important;
+}
+#chart {
+  margin-left: -37px;
+  margin-top: -30px;
+}
+
+@media screen and (max-width: 480px) {
+  #chartd {
+    display: flex;
+    justify-content: center;
+  }
+}
